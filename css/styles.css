@@ -1,0 +1,17 @@
+body {
+    background-color: #ffffff;
+    color: #434455;
+}
+.logo {
+    color: #4D5AE5;
+}
+.list {
+    list-style: none;
+}
+.site-nav .link{
+    color: #2E2F42;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #000000
+}
