@@ -145,6 +145,10 @@ body {
     font-size: 20px;
     line-height: 1.2;
 }
+.project-list .title:hover,
+.project-list .title:focus {
+    color: var(--hover);
+}
 .project-link .text {
     color: var(--primary-text-color);
     font-weight: 400;
