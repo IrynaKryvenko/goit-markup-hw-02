@@ -10,15 +10,31 @@
 body {
     background-color: var(--pr-white-color) ;
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
 }
 .logo {
     color: var(--hover);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height:1.2;
+}
+.logo-studio {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
 }
 .list {
     list-style: none;
 }
 .site-nav .link{
     color: var(--title-text-color);
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -27,25 +43,90 @@ body {
 .site-nav .link-current {
     color: var(--hover);
 }
+.site-nav {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.list-dress .conect {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
 .hero-title {
     color:#FFFFFF
 }
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1;
+    text-align: center;
+}
 .section-title {
     color: var(--title-text-color);
+    font-weight:600;
+    font-size:36px;
+    line-height:1.1;
+    text-align: center;
 }
-.feature-list .title {
-  color: var(--title-text-color);
-}
+.feature-list .title, 
 .team-list .title {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.team-list {
+    text-align: center;
 }
 .button {
-color: var(--pr-white-color) ;
-background-color: var(--hover) ;
+    color: var(--pr-white-color) ;
+    background-color: var(--hover) ;
+}
+.button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+.title-text, .team-text {
+    font-weight:400;
+    font-size: 16px; 
+    line-height: 1.5; 
 }
 .studio-footer {
     color: var(--cloud-color);
 }
 .footer-text {
     color: var(--accent);
+    background-color: var(--title-text-color);
+}
+
+.filters .title {
+    color: var(--hover);
+    background-color: var(--cloud-color);
+
+    /* PORTFOLIO */
+}
+.btn:hover,
+.btn:focus {
+    color: var(--pr-white-color);
+    background-color: var(--hover);
+    cursor: pointer;
+}
+.btn {
+    color:var(--hover);
+    background-color: var(--cloud-color);
+
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        border-radius: 4px;
+        border-color: var(--cloud-color);
 }
