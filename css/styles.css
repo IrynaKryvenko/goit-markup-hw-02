@@ -126,7 +126,6 @@ body {
     color: var(--hover);
     background-color: var(--cloud-color);
 
-
 }
 .btn:hover,
 .btn:focus {
@@ -162,9 +161,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
-.filters .title {
-    display: none;
-}
+
 .link {
     text-decoration: none;
 }
