@@ -10,13 +10,12 @@
 body {
     background-color: var(--pr-white-color) ;
     color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
 }
 .logo {
     color: var(--hover);
-    font-family: Raleway, sans-serif;
-    font-style: normal;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height:1.2;
@@ -24,19 +23,13 @@ body {
 }
 .logo-studio {
     color: var(--title-text-color);
-    font-family: Raleway, sans-serif;
-    font-style: normal;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.2;
     text-decoration: none;
 }
-.logo:hover, 
-.logo:focus,
-.logo-studio:hover,
-.logo-studio:focus {
-    color: var(--hover);
-}
+
 .list {
     list-style: none;
 }
@@ -50,6 +43,7 @@ body {
 }
 .site-nav .link-current {
     color: var(--hover);
+    text-decoration: none;
 }
 .site-nav {
     font-weight: 600;
@@ -67,7 +61,9 @@ body {
 .conect-link:focus {
     color: var(--hover);
 }
-
+.hero {
+    background-color: var(--title-text-color);
+}
 .hero-title {
     color:#FFFFFF
 }
@@ -77,12 +73,28 @@ body {
     line-height: 1;
     text-align: center;
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .section-title {
     color: var(--title-text-color);
     font-weight:600;
     font-size:36px;
     line-height:1.1;
     text-align: center;
+    text-transform: capitalize;
+}
+.team {
+    background-color: var(--cloud-color);
 }
 .feature-list .title, 
 .team-list .title {
@@ -93,6 +105,7 @@ body {
 }
 .team-list {
     text-align: center;
+    text-transform: capitalize;
 }
 .button {
     color: var(--pr-white-color) ;
@@ -100,11 +113,12 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.2;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
-    text-decoration: none;
     cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
 }
 .title-text, .team-text {
     font-weight:400;
@@ -115,6 +129,9 @@ body {
     color: var(--cloud-color);
     background-color: var(--title-text-color);
 }
+.footer-elements {
+    background-color: var(--title-text-color);
+}
 .footer-text {
     color: var(--accent);
     background-color: var(--title-text-color);
@@ -122,11 +139,7 @@ body {
 
         /* PORTFOLIO */
 
-.filters .title {
-    color: var(--hover);
-    background-color: var(--cloud-color);
 
-}
 .btn:hover,
 .btn:focus {
     color: var(--pr-white-color);

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -16,10 +16,9 @@
   <body>
     <header>
       <nav>
-        <a href="/">
-          <span class="logo">Web</span>
-          <span class="logo-studio">Studio</span>
-        </a>
+        <a class="logo-studio" href="./index.html">
+          <span class="logo">WEB</span>STUDIO</a
+        >
         <ul class="site-nav list">
           <li><a href="./index.html" class="link-current">Studio</a></li>
           <li><a href="./portfolio.html" class="link">Portfolio</a></li>
@@ -28,22 +27,24 @@
       </nav>
       <ul class="list-adress list">
         <li class="conect">
-          <a class="connect-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="connect-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="conect">
-          <a class="connect-link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+          <a class="connect-link" href="tel:+11(000)111-11-11"
+            >+11 (000) 111-11-11</a
+          >
         </li>
       </ul>
     </header>
     <main>
-      <div>
-        <section class="hero">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
-        </section>
-      </div>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="button">Order Service</button>
+      </section>
       <section class="section">
-        <h2 hidden class="section-title">Our features</h2>
+        <h2 class="visually-hidden">Our features</h2>
         <ul class="feature-list list">
           <li>
             <h3 class="title">Strategy</h3>
@@ -93,12 +94,12 @@
           </li>
         </ul>
       </section>
-      <section class="section">
+      <section class="section team">
         <h2 class="section-title">Our team</h2>
         <ul class="team-list list">
           <li>
             <img
-              src="./image/Mark-Guerrero.jpg"
+              src="./image/mark-guerrero.jpg"
               alt="Mark Guerrero"
               width="264"
             />
@@ -107,14 +108,14 @@
             <p class="team-text">Product Designer</p>
           </li>
           <li>
-            <img src="./image/Tom-Ford.jpg" alt="Tom Ford" width="264" />
+            <img src="./image/tom-ford.jpg" alt="Tom Ford" width="264" />
 
             <h3 class="title">Tom Ford</h3>
             <p class="team-text">Frontend Developer</p>
           </li>
           <li>
             <img
-              src="./image/Camila-Garcia.jpg"
+              src="./image/camila-garcia.jpg"
               alt="Camila Garcia"
               width="264"
             />
@@ -124,7 +125,7 @@
           </li>
           <li>
             <img
-              src="./image/Daniel-Wilson.jpg"
+              src="./image/daniel-wilson.jpg"
               alt="Daniel Wilson"
               width="264"
             />
@@ -135,10 +136,9 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">
-        <span class="logo">Web</span>
-        <span class="studio-footer">Studio</span>
+    <footer class="footer-elements">
+      <a class="studio-footer" href="#">
+        <span class="logo">Web</span>Studio
       </a>
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
