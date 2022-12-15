@@ -20,6 +20,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height:1.2;
+    text-decoration: none;
 }
 .logo-studio {
     color: var(--title-text-color);
@@ -28,6 +29,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.2;
+    text-decoration: none;
 }
 .list {
     list-style: none;
@@ -48,11 +50,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
-.list-dress .conect {
+.list-adress .connect-link {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    text-decoration: none;
+}
+.connect-link:hover,
+.conect-link:focus {
+    color: var(--hover);
 }
 
 .hero-title {
@@ -133,6 +140,7 @@ body {
 }
 .project-list .title {
     color: var(--title-text-color);
+    font-family: inherit;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
