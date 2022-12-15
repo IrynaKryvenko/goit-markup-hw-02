@@ -107,6 +107,7 @@ body {
 }
 .studio-footer {
     color: var(--cloud-color);
+    background-color: var(--title-text-color);
 }
 .footer-text {
     color: var(--accent);
