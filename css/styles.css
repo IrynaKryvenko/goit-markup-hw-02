@@ -49,10 +49,12 @@ body {
     line-height: 1.5;
 }
 .list-dress .conect {
+    color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
+
 .hero-title {
     color:#FFFFFF
 }
@@ -82,8 +84,6 @@ body {
 .button {
     color: var(--pr-white-color) ;
     background-color: var(--hover) ;
-}
-.button {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.2;
@@ -91,6 +91,7 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     text-decoration: none;
+    cursor: pointer;
 }
 .title-text, .team-text {
     font-weight:400;
@@ -105,11 +106,13 @@ body {
     background-color: var(--title-text-color);
 }
 
+        /* PORTFOLIO */
+
 .filters .title {
     color: var(--hover);
     background-color: var(--cloud-color);
 
-    /* PORTFOLIO */
+
 }
 .btn:hover,
 .btn:focus {
@@ -120,13 +123,29 @@ body {
 .btn {
     color:var(--hover);
     background-color: var(--cloud-color);
-
-        font-family: inherit;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        border-radius: 4px;
-        border-color: var(--cloud-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: var(--cloud-color);
+}
+.project-list .title {
+    color: var(--title-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.project-link .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.filters .title {
+    display: none;
+}
+.link {
+    text-decoration: none;
 }
