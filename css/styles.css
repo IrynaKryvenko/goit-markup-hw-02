@@ -31,6 +31,12 @@ body {
     line-height: 1.2;
     text-decoration: none;
 }
+.logo:hover, 
+.logo:focus,
+.logo-studio:hover,
+.logo-studio:focus {
+    color: var(--hover);
+}
 .list {
     list-style: none;
 }
@@ -40,7 +46,7 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #000000
+    color: var(--hover);
 }
 .site-nav .link-current {
     color: var(--hover);
