@@ -128,6 +128,13 @@ body {
 .studio-footer {
     color: var(--cloud-color);
     background-color: var(--title-text-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 .footer-elements {
     background-color: var(--title-text-color);
